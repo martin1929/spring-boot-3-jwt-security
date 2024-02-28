@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/cookesdb
     username: root
-    password: password
+    password: M1988190119m
     driver-class-name: com.mysql.jdbc.Driver
   jpa:
     hibernate:

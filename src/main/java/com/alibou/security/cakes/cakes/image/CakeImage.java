@@ -1,4 +1,4 @@
-package com.alibou.security.cakes.image;
+package com.alibou.security.cakes.cakes.image;
 
 import com.alibou.security.cakes.Cake;
 import com.alibou.security.user.User;
@@ -22,4 +22,9 @@ public class CakeImage {
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "cake_id")
     public Cake cake;
+    public CakeImage(String cakeImgName, Cake cake) {
+        this.imageName=cakeImgName;
+        this.cake=cake;
+    }
+
 }

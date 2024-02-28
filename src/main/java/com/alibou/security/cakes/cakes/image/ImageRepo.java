@@ -1,4 +1,4 @@
-package com.alibou.security.cakes.image;
+package com.alibou.security.cakes.cakes.image;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
